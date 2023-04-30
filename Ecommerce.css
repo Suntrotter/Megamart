@@ -1,0 +1,307 @@
+.upper {
+    background-color: #F5F5F5;
+    width: 1440px;
+    height: 42px;
+    left: 0;
+    top: 0;
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-left: 120px;
+}
+.upper__welcome {
+    padding-left: 20px;
+}
+.upper-hr {
+    width: 1440px;
+    margin-left: 120px;
+}
+.upper ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 1000px;
+    gap: 15px;
+    font-size: 14px;
+
+}
+#car {
+    position: relative;
+    bottom: 4px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+}
+.upper__megamart_two {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 130px;
+    color: dodgerblue;
+    font-size: 28px;
+    font-weight: bold;
+}
+.upper__megamart {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+}
+.upper__megamart_ul ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    position: relative;
+    top: 15px;
+    left: 200px;
+
+}
+input {
+    margin-left: 200px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    background-color: #ebf6fd;
+    border-radius: 10px;
+    border: 1px solid #ebf6fd;
+
+}
+#symbol{
+    width: 20px;
+    height: 20px;
+}
+#symbol-1 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+}
+#burger {
+    position: relative;
+    bottom: 15px;
+    background-color: #ebf6fd;
+    border-radius: 10px;
+    border: 1px solid #ebf6fd;
+    padding: 8px;
+}
+#line {
+    position: relative;
+    bottom: 28px;
+}
+.button {
+    background-color: #ebf6fd;
+    border-radius: 10px;
+    border: 1px solid #ebf6fd;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+header span {
+    color: dodgerblue;
+    font-weight: bold;
+}
+.navigation-buttons {
+    margin-left: 130px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.watch-bar__text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-left: 120px;
+    font-weight: bold;
+}
+.watch-bar__image {
+   border-radius: 50px;
+}
+.watch-bar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    gap: 250px;
+    padding:20px;
+    height: 400px;
+    width: 1300px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.watch-bar__small {
+    font-size: 28px;
+}
+.watch-bar__large {
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;}
+.watch-bar__small-1 {
+    font-size: 60px;
+    position: relative;
+    bottom: 80px;
+}
+.watch-bar__small-2 {
+    position: relative;
+    bottom: 90px;
+    font-size: 28px;
+}
+.circle {
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+}
+.round-button {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+    bottom: 285px;
+    left: 60px;
+    border: 10px solid white;
+}
+.round-button-2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin: 10px;
+    position: relative;
+    bottom: 280px;
+    left: 1280px;
+    border: 10px solid white;
+}
+.round-button:hover {
+    background: grey;
+    border: 1px solid dodgerblue;
+}
+.round-button-2:hover {
+    background: grey;
+    border: 1px solid dodgerblue;
+}
+.circle-2 {
+    height: 30px;
+    width: 30px;
+}
+.offer {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+.offer__first {
+    font-size: 28px;
+}
+.offer__second {
+    font-size: 18px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.view-all {
+    position: relative;
+    right: 595px;
+    top: 39px;
+}
+.phone-1__grey {
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+
+
+}
+.phone-1 {
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid #F5F5F5;
+
+}
+.phone-1__hr {
+    color: red;
+}
+.phones {
+    margin-left: 100px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 400px;
+}
+.phones__blue-square {
+    background-color: lightskyblue;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 30px;
+    position: relative;
+    bottom: 38px;
+    left: 171px;
+}
+.phone-1 img {
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+    border-radius: 25px;
+}
+.phone-1__text {
+    padding: 15px;
+}
+.phone-1__save {
+    font-weight: bold;
+    color: limegreen;
+}
+.bold {
+    font-weight: bold;
+}
+.deleted {
+    text-decoration: line-through;
+}
+.offer__highlight {
+    color: dodgerblue;
+}
+.phone-1__grey:hover {
+    border: 1px solid dodgerblue;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+.end {
+    margin-top: 100px;
+}
+#drop {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+}
+#discounts {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    bottom: 2px;
+    right: 5px;
+}
+#all_offers {
+    position: relative;
+    right: 20px;
+}
+#input-list {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
